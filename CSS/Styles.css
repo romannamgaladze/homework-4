@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 header {
+  font-weight: 400;
   /* border: 2px solid green; */
   padding: 25px 45px;
 }
@@ -40,21 +47,25 @@ nav,
 main {
   width: 100%;
   height: 604px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   color: #14203e;
   text-align: center;
+  background-color: #fffcf8;
 }
 .main-content {
   /* border: 2px solid blue; */
   width: 600px;
-  margin: 129px auto 0px auto;
+  padding-top: 129px;
+  margin: 0px auto;
 }
 h1 {
   font-size: 66px;
+  font-weight: 700;
 }
 .main-paragraph {
   font-size: 22px;
   margin: 30px 0px 40px 0px;
+  font-weight: 400;
 }
 
 .start-trial-btn-main {
@@ -64,4 +75,31 @@ h1 {
   padding: 25px 40px;
   border-radius: 10px;
   font-size: 18px;
+  font-weight: 400;
+}
+
+.cards-section {
+  width: 1254px;
+  /* border: 2px solid blue; */
+  margin: 78px auto;
+}
+
+.card {
+  display: inline-block;
+  /* border: 2px solid red; */
+  width: 291px;
+  margin-left: 26px;
+}
+.card:first-child {
+  margin-left: 0px;
+}
+.card-image-description {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.card-image-para {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px;
 }
