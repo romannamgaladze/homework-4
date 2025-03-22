@@ -1,0 +1,38 @@
+header {
+  /* border: 2px solid green; */
+  padding: 25px 45px;
+}
+nav {
+  margin-left: 444px;
+  margin-right: 199px;
+}
+nav,
+.nav-list,
+.list-item,
+.button-section {
+  display: inline;
+}
+.list-item {
+  margin-left: 56px;
+}
+.list-item a {
+  color: #14203e;
+  font-size: 18px;
+}
+.log-in-btn {
+  border: none;
+  background-color: #f6f0e8;
+  color: #000000;
+  padding: 13px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.start-trial-btn {
+  margin-left: 15px;
+  border: none;
+  background-color: #14203e;
+  color: #ffffff;
+  padding: 13px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
